@@ -1,0 +1,127 @@
+@media (min-width: 1200px){
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	
+	.img_banner img{
+		height: 600px;
+	}
+	.text_banner{
+	position: absolute;
+	left:50%;
+    top: 45%;
+    margin-top: -102px;
+    margin-left: -215px;
+	}
+	.text_banner h1{
+		color: #fff;
+		font-size: 80px;
+	}
+	.text_banner p{
+		color: #fff;
+		font-size: 16px;
+		word-spacing: 2px;
+	}
+	.text_banner button{
+		outline:#15a4fa solid 0.5px;
+		color: #fff;
+		margin-top: 30px;
+		padding:10px 20px;	
+		border: none;
+		background-color: transparent; 
+		border-radius: 3%;	
+		opacity: 1;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.img_banner img{
+		height: 500px;
+	}
+	.text_banner{
+		position: absolute;
+		left:50%;
+	    top: 40%;
+	    margin-top: -102px;
+	    margin-left: -215px;
+		}
+	.text_banner h1{
+		color: #fff;
+		font-size: 60px;
+	}
+	.text_banner p{
+		color: #fff;
+		font-size: 15px;
+		word-spacing: 2px;
+	}
+	.text_banner button{
+		outline:#15a4fa solid 0.5px;
+		color: #fff;
+		margin-top: 30px;
+		padding:10px 20px;	
+		border: none;
+		background-color: transparent; 
+		border-radius: 3%;	
+		opacity: 1;
+	}
+	.down{
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	bottom: 15%;
+	margin-left: -15px;
+	/*margin-top: -100px;*/
+	}
+}
+
+
+@media (max-width: 767px){
+	.logo{
+		padding: 15px;
+	}
+	.img_banner img{
+		height: 300px;
+	}
+	.text_banner{
+		position: absolute;
+		left:50%;
+	    top: 29%;
+	    margin-top: -120px;
+	    margin-left: -195px;
+	}
+	.text_banner h1{
+		color: #fff;
+		font-size: 40px;
+	}
+	.text_banner hr{
+		width: 90%;
+		/*color: #fff;*/
+		border: solid 1px #15a4fa;
+	}
+	.text_banner p{
+		/*margin: 0px 5px;*/
+		color: #fff;
+		font-size: 14px;
+		word-spacing: 2px;
+	}
+	.text_banner button{
+		outline:#15a4fa solid 0.5px;
+		color: #fff;
+		margin-top: 10px;
+		padding: 10px 20px;	
+		border: none;
+		background-color: transparent; 
+		border-radius: 3%;	
+		opacity: 1;
+	}
+	.down{
+		color: #fff;
+		position: absolute;
+		left: 50%;
+		bottom: 47%;
+		margin-left: -10px;
+		/*margin-top: -100px;*/
+	}
+}
