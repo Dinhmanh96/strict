@@ -1,0 +1,278 @@
+@mixin font-page{
+	font-family: 'Lato';
+}
+$color: #f6f9f9;
+$color-blue: #15a4fa;
+$color-blue-hover: #2b8aff;
+$color-blue-dark: #2d3950;
+$color-gray: #999999;
+$color-white: #fff;
+body{
+	@include font-page;
+	background: $color;
+}
+.main{
+	padding-top: 85px;
+}
+header{
+	background-color: $color;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.logo{
+	padding: 25px 0px 25px 12%;
+	width: 100%;
+}
+// @if ((min-width: 992px) and (max-width: 1199px)) {
+	
+// } @else if ((min-width: 768px) and (max-width: 991px)) {
+	
+// 	} @else if ((min-width: 375px) and (max-width: 767px)) {
+	
+// 		} @else if ((max-width: 374px)) {
+
+// 			} @else{
+
+// 			}
+			
+.img-banner{
+		img{
+			width: 100%;
+		}
+	}
+.banner{
+	position: relative;
+	/* margin-bottom: 40px; */
+}
+.text-banner{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -215px;
+
+	h1{
+		color: $color-white;
+		font-size: 100px;
+	}
+	hr{
+		width: 100%;
+		border: solid 1px $color-blue;
+	}
+	p{
+		padding-top: 5px;
+		color: $color-white;
+		font-size: 16px;
+		word-spacing: 2px;
+	}
+	.btn-blue{
+		@extend .btn-blue;
+		margin-top: 320px;
+		margin-left: 140px;
+		padding: 11px 30px;
+	}
+}
+
+.btn-blue{
+	border: solid 1px $color-blue;
+	color: $color-white;
+	background-color: transparent; 
+	border-radius: 3%;	
+	opacity: 1;
+	&:hover{
+		background-color: $color-blue;
+	}
+}
+
+.text-simple{
+	padding: 70px 50px 90px 50px;
+	h1{
+		padding-bottom: 15px;
+		@include font-page;
+		color: $color-blue-dark;
+	}
+	span{
+		color: $color-gray;
+		@include font-page;
+		font-size: 18px;
+		word-spacing: 2px;
+	}
+}
+.down{
+	color: $color-white;
+	position: absolute;
+	left: 49.5%;
+	bottom: 10%;
+}
+.icon-simple{
+	padding: 60px 0px;
+}
+.icon{
+	color: $color-blue-dark;
+	text-align: center;
+	margin-top: 10px;
+	h3{
+		@include font-page;
+		margin-bottom: 10px;
+		color: $color-blue-dark
+	}
+	span{
+		color: $color-gray
+	}
+}
+.icon-fluid{
+	background: $color-white;
+}
+.title-showcase{
+	padding: 50px 50px;
+}
+.showcase{
+	@include font-page;
+	h2{
+		text-align: center;
+		padding-bottom: 5px;
+		color: $color-blue-dark
+	}
+	p{
+		text-align: center;
+		color: $color-blue-dark;
+	}
+	
+}
+#modal-image{
+	width: 100%;
+}
+.modal-body{
+	.flex-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.flex-container{
+	.prv{
+		padding: 0px 5px 0px 0px;
+	}
+	.next{
+		padding: 0px 0px 0px 5px;
+	}
+}
+.pic{
+	padding-bottom: 30px;
+	image{
+		position: relative;
+		display: block;
+		height: auto;
+	}
+	img{
+		width: 100%;
+	}
+	&:hover{
+		.pic-hover{
+			opacity: 0.8;
+		}
+	}
+
+}
+.pic-hover{
+	display: flex;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	margin: 0px 15px 30px 15px; 
+	justify-content: center;
+	align-items: center;
+	transition: .5s all;
+	color: #000;
+	background-color: $color-blue-hover;
+	button{
+		margin: 5px;
+		background-color: transparent;
+		border: solid 1px $color-white;
+		&:hover{
+			background-color: $color-blue-hover;
+			color: #000;
+		}
+	}
+}
+.contact{
+	margin-top: 80px;
+	position: relative;
+	background-image: url("../image/banner3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	p{
+		color: $color-gray;
+		padding: 10px 0px;
+	}
+	h2{
+		@include font-page;
+		font-size: 40px;
+		color: $color-white;
+	}
+	.form-group{
+		margin-bottom: 5px;
+	}
+	.checkbox{
+		float: left;
+	}
+	.btn-blue{
+		padding: 10px 45px;
+		float: right;
+	}
+}
+.form-control{
+	background-color: transparent;
+	width: 100%;
+	height: 60px;
+	color: $color-white;
+}
+.form{
+	label{
+		font-weight: normal;
+		color: $color-white;
+	}
+	textarea{
+		background-color: transparent;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		padding-top: 20px;
+		height: 180px;
+		color: $color-white;
+	}
+}
+.error{
+	color: red;
+}
+.coppy{
+	color: $color-gray;
+	float: left;
+	clear: both;
+	padding-top: 25px;
+}
+.icon-social{
+	.fa{
+		float: right;
+		padding-top: 15px;
+		height: 40px;
+		width: 40px;
+		border-radius: 3px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		margin: 18px 2px;
+		font-size: 15px;
+		background-color: #15a4fa;
+		color: $color-white;
+		&:hover{
+			color: #0b91e1;
+		}
+	}
+}

@@ -1,0 +1,255 @@
+.*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Lato';
+	background: #f6f9f9;
+}
+.main{
+	padding-top: 85px;
+}
+header{
+	background-color: #f6f9f9;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.logo{
+	padding: 25px 0px 25px 12%;
+	width: 100%;
+}
+.img-banner img{
+	width: 100%;
+}
+.banner{
+	position: relative;
+	/* margin-bottom: 40px; */
+}
+.text-banner{
+	position: absolute;
+	left:50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -215px;
+}
+.text-banner h1{
+	color: #fff;
+	font-size: 100px;
+}
+.text-banner hr{
+	width: 100%;
+	border: solid 1px #15a4fa;
+}
+.text-banner p{
+	padding-top: 5px;
+	color: #fff;
+	font-size: 16px;
+	word-spacing: 2px;
+}
+.text-banner .btn-blue{
+	margin-top: 320px;
+	margin-left: 140px;
+	padding: 11px 30px;	
+}
+.btn-blue{
+	border: solid 1px #15a4fa;
+	color: #fff;
+	background-color: transparent; 
+	border-radius: 3%;	
+	opacity: 1;
+}
+.btn-blue:hover{
+	background-color: #15a4fa;
+}
+
+
+.text-simple{
+	padding: 70px 50px 90px 50px;
+}
+.text-simple h1{
+	padding-bottom: 15px;
+	font-family: 'Lato';
+	color: #2d3950;
+}
+.text-simple span{
+	color: #999999;
+	font-family: 'Lato';
+	font-size: 18px;
+	word-spacing: 2px;
+}
+.down{
+	color: #fff;
+	position: absolute;
+	left: 49.5%;
+	bottom: 10%;
+}
+.icon-simple{
+	padding: 60px 0px;
+}
+.icon{
+	color: #2d3950;
+	text-align: center;
+	margin-top: 10px;
+}
+.icon h3{
+	font-family: 'Lato';
+	margin-bottom: 20px;
+	color: #2d3950;
+}
+.icon span{
+	color: #999999;
+}
+.icon-fluid{
+	background: #fff;
+}
+
+.showcase{
+	font-family: 'Lato';
+}
+.title-showcase{
+	padding: 50px 50px;
+}
+.showcase h2,p{
+	text-align: center;
+}
+.showcase h2{
+	padding-bottom: 5px;
+	color: #2d3950;
+}
+.showcase p{
+	color: #999999;
+}
+#modal-image{
+	width: 100%;
+}
+.modal-body .flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-container .prv{
+	padding: 0px 10px 0px 0px;
+}
+.flex-container .next{
+	padding: 0px 0px 0px 10px;
+}
+.pic{
+	padding-bottom: 30px;
+}
+.pic image{
+	position: relative;
+	display: block;
+	height: auto;
+}
+.pic img{
+	width: 100%;
+}
+.pic-hover{
+	display: flex;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	margin: 0px 15px 30px 15px; 
+	justify-content: center;
+	align-items: center;
+	transition: .5s all;
+	color: #000;
+	background-color: #2b8aff;
+}
+.pic-hover button{
+	margin: 5px;
+	background-color: transparent;
+	border: solid 1px #fff;
+}
+.pic-hover button:hover{
+	background-color: #2b8aff;
+}
+.pic:hover .pic-hover{
+	opacity: 0.8;
+}
+.contact{
+	padding-top: 50px;
+}
+.contact p{
+	color: #929294;	
+}
+.contact .form-group{
+	margin-bottom: 5px;
+}
+.form-control {
+	background-color: transparent;
+	width: 100%;
+	height: 60px;
+	color: #fff;
+}
+.form label{
+	font-weight: normal;
+	color: #fff;
+}
+.form textarea{
+	background-color: transparent;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	height: 180px;
+	color: #fff;
+}
+.error{
+	color: red;
+}
+.contact{
+	margin-top: 80px;
+	position: relative;
+	background-image: url("../image/banner3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+}
+
+.contact h2{
+	font-family: 'Lato';
+	font-size: 40px;
+	color: #fff;
+}
+.contact p{
+	padding: 10px 0px;
+}
+
+.contact .checkbox{
+	float: left;
+}
+.contact .btn-blue{
+	padding: 10px 45px;	
+	float: right;
+}
+.coppy{
+	color: #919191;
+	float: left;
+	clear: both;
+	padding-top: 25px;
+}
+
+.icon-social .fa{
+	float: right;
+	padding-top: 15px;
+	height: 40px;
+	width: 40px;
+	border-radius: 3px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	margin: 18px 2px;
+	font-size: 15px;
+	background-color: #15a4fa;
+	color: #fff;
+}
+.icon-social .fa:hover{
+	color: #0b91e1;
+}

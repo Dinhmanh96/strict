@@ -1,0 +1,120 @@
+body {
+  background: #fff; 
+}
+nav {
+  background-color: #f6f9f9;
+  position: fixed;
+  top: 0;
+  z-index: 1; }
+.navbar{
+	background-color: #f6f9f9;
+}
+.navbar-toggle{
+	background-color: transparent;
+	/* border: solid 2px #2d3950; */
+	margin-top: 15px;
+}
+.navbar-toggle span{
+	background-color: #2d3950;
+}
+.navbar-nav a{
+	color: #2d3950;
+}
+/* .navbar-nav:hover li{
+	background-color: blue;
+} */
+.nav li{
+	padding-top: 10px;
+}
+.collapse{
+	float: right;
+}
+.banner .add{
+	margin-top: 15px;
+}
+.banner .title{
+	width: 25%;
+	font-weight: bold;
+}
+.banner .edit{
+	margin-left: 15px;
+}
+.banner .remove{
+	margin-right: 15px;
+}
+.banner h3{
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+.banner .flex-container{
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.edit-banner .btn-update{
+	float: left;
+}
+.edit-banner .btn-cancel{
+	float: right;
+}
+.add-banner .btn-add{
+	margin: 10px 0px;
+	width: 100%;
+}
+.add-banner h3{
+	padding: 10px 0px;
+}
+.simple .flex-container{
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.simple .add{
+	margin-top: 15px;
+}
+.simple .title{
+	width: 25%;
+	font-weight: bold;
+}
+.simple .edit{
+	margin-left: 15px;
+}
+.simple .remove{
+	margin-right: 15px;
+}
+.simple h3{
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+.edit-simple .btn-update{
+	float: left;
+}
+.edit-simple .btn-cancel{
+	float: right;
+}
+
+.message h3{
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+
+.info-message .btn-remove{
+	float: right;
+}
+.info-message h3{
+	color: #2d3950;
+}
+.social .form-control{
+	width: 80%;
+}
+.social .btn{
+	margin-left: 5px;
+}
+.social .flex-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
